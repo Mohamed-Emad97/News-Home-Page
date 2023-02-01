@@ -1,6 +1,6 @@
 import React from 'react';
 import {Poster, SideNews} from "../index";
-
+import {Cards} from "../index";
 export default function Home() {
   return (
     <>
@@ -15,6 +15,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Cards/>
     </section>
     </>
   )
