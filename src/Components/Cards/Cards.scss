@@ -1,0 +1,22 @@
+//Import Files
+@use "../../Helpers/Variblies.scss" as *;
+
+//Rules
+#cards{
+    .postCard{
+        .num{
+            color: $Grayish-blue;
+        }
+        h5{
+            color: $Very-dark-blue; 
+            cursor: pointer;    
+            transition: all 1s;
+            &:hover{
+                color: $Soft-red;
+            }
+        }
+        .txt{
+            color: $Dark-grayish-blue;
+        }
+    }
+}
